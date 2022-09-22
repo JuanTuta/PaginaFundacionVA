@@ -1,0 +1,98 @@
+html {
+    font-family: 'Inter', sans-serif;
+}
+body {
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+    padding: 50px;
+    margin: 0;
+  }
+nav{
+  display: flex;
+  padding: 2% 2%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img{
+  width: 150px;
+}
+.links-menu{
+  flex: 1;
+  text-align: right;
+  
+  mix-blend-mode: normal;
+}
+.links-menu ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+  /*position: absolute;
+  width: auto;
+  height: 82px;
+  left: 20px;
+  top: 231px;
+
+  background: #5BB9C2;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+}
+.links-menu ul li a{
+  color: #732002;
+  text-decoration: none;
+  font-size: 20px;
+}
+.links-menu ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #5496FF;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.links-menu ul li:hover::after{
+  width: 100%;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+th,td{
+    border: solid 1px #eee;
+    padding: 5px;
+}
+th {
+    background-color: #FF943B;
+    color: #732002;
+    text-align:center;
+}
+tr:nth-child(even){
+    background-color: #FF943B;
+    color: #732002;
+    text-align:center;
+}
+
+th.MisionVision2 {
+    background-color: #5496FF;
+    color: #000000;
+    text-align:center;
+}
+td.TextosTabla2{
+    background-color: #5496FF;
+    color: #000000;
+    text-align:center;
+}
+footer section{
+    float:right;
+}
+footer p{
+    margin:0;
+}
+footer a{
+    transition: color 0.3s ease;
+    padding:5px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
