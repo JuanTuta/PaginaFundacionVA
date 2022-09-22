@@ -1,0 +1,106 @@
+.container{
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 10px;
+    flex-flow: column nowrap;
+}
+
+#Logo{
+    width: 180px;
+    height: 70px;
+}
+
+#titulo{
+    background-color: #FF943B;
+    height: 129px;
+    text-align: center;
+    line-height: 129px;
+    font-size: 48px;
+    color: #732002;
+}
+
+#gato_formulario{
+    width: 450px;
+    height: 400px;
+    float: right;
+}
+
+#Nombre{
+    background-color: #1E1E1E;
+    width: 730px;
+    height: 82px;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 82px;
+}
+
+#Celular{
+    background-color: #1E1E1E;
+    width: 730px;
+    height: 82px;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 82px;
+}
+
+#Cedula{
+    background-color: #1E1E1E;
+    width: 730px;
+    height: 82px;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 82px;
+}
+
+#Email{
+    background-color: #1E1E1E;
+    width: 730px;
+    height: 82px;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 82px;
+}
+
+#Cuota{
+    background-color: #1E1E1E;
+    width: 730px;
+    height: 82px;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 82px;
+}
+
+#Envio{
+    background-color: #1E1E1E;
+    width: 120px;
+    height: 82px;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 82px;
+}
+
+#Envio a{
+    color: #FFFFFF;
+}
+
+#Cancelacion{
+    background-color: #1E1E1E;
+    width: 120px;
+    height: 82px;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 82px;
+}
+#Cancelacion a{
+    color: #FFFFFF;
+}
+
+
+
