@@ -1,3 +1,0 @@
-# PaginaFundacionVA
-
-LLevamos dos versiones
