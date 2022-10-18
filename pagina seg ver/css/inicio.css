@@ -14,17 +14,22 @@ nav{
 nav img{
     width: 250px;
 }
+/*---- menu-----*/
 .links-menu{
-    flex: 1;
-    text-align: right;
-    
-    mix-blend-mode: normal;
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #5496FF;
+    border-radius: 10px;
+   
 }
 .links-menu ul li{
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
-    position: relative;
+    padding: 15px ;
+    width: 160px;
+    margin: 15px;
 }
 .links-menu ul li a{
     color: #732002;
@@ -35,13 +40,13 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #5496FF;
+    background: #000000;
     display: block;
-    margin: auto;
+    margin: 5px;
     transition: 0.5s;
 }
 .links-menu ul li:hover::after{
-    width: 100%;
+    width: 95%;
 }
 
 /*------------primera sec----------*/
@@ -49,7 +54,7 @@ nav img{
     width: 95%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 h1{
     font-size: 40px;
@@ -94,8 +99,7 @@ h1{
     70% {left:323px;}
     80% {left:0px;}
     90% {left:0px;}
-    100% {left:0px;}
-    
+    100% {left:0px;}  
 }
 
 .slide-images{ 
@@ -113,35 +117,30 @@ h1{
 }
 
 /*------------segm----------*/
+
 .segm{
+    position: relative;
     width: 95%;
-    margin: 100px auto;
-    background-image: url(pp.png);
-    background-position: center;
-    background-size: auto;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.segm img{
+    width: 100%;
     border-radius: 10px;
-    padding-top: 100px 0px;
-    
 }
 
 .segm h1{
     color: #fff;
-    margin-bottom: 50px;
-    padding: 140px;
+    position: absolute;
+    top: 35%;
+    width: 40%;
+    text-align: center;
     font-size: 40px;  
 }
-.contimg{
-    display: flex;
-    justify-content: center;
-    padding: 0px 40px;
-}
-.contimg img{
-    width: 95%;
-    height: auto;
-}
 
+/*--------terc----------*/
 
-/*------------terc----------*/
 .terc{
     width: 98%;
     margin: auto;
@@ -236,7 +235,7 @@ h1{
     text-align: center;
     padding-top: 0px;
     font-size: 20px;
-    background-color: #5496FF;
+    background: #5496FF;
 }
 .footer h2{
     color: #fff;
@@ -250,13 +249,10 @@ h1{
     position: relative;
     max-width: 700px;
     min-width: 450px;
-    padding: 0px 0px ;
 }
-
 .fot1{
     margin-bottom: 60px;
 }
-
 .fot1 .fott{
     position: absolute;
     bottom: 0;
@@ -273,9 +269,6 @@ h1{
 
 .fot2{
     flex-basis: 5%;
-    position: relative;
-    max-width: 700px;
-    min-width: 450px;
     padding: 50px 0px ;
 }
 
@@ -294,7 +287,7 @@ h1{
 /*------------Contacto----------*/
 
 .inf{
-    width: 80%;
+    width: 92%;
     margin: auto;
 }
 
@@ -333,6 +326,13 @@ h1{
     border-radius: 10px;
     background: #000000;
 }
+input{
+    color: #fff;
+}
+textarea{
+    color: #fff;
+}
+
 .infof1{
     background: #FF943B;
     border-radius: 10px;
@@ -340,6 +340,8 @@ h1{
 ::placeholder{
     color: #fff;
 }
+
+
 
 .abtn{
     display: inline-block;
@@ -359,7 +361,7 @@ h1{
     transition: 1s;
     color: #000000;
 }
-/*------------Formulario Apadrinar----------*/
+/*------------Formulario Apadrinar Final----------*/
 .msgimp{
     width: 80%;
     margin: auto;
@@ -426,4 +428,121 @@ h1{
     background-color: #fff;
     transition: 1s;
     color: #000000;
+}
+
+/*------------informacion Adopciones----------*/
+.gato{
+    width: 95%;
+    height: 400px;
+    margin: auto ;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px;
+    border-radius: 10px;
+
+    background-image: url(gato2.jpg);
+    background-size: 2141px 1400px;
+    background-position: center;
+}
+
+/*------------informacion Adopciones primera parte----------*/
+.tboxa{
+    display: flex;
+    justify-content: center;
+}
+.tbox1{
+    background: #FF943B;
+    border-radius: 10px;
+    padding: 100px 12px;
+    box-sizing: border-box;
+}
+
+.msgimp1{
+    width: 95%;
+    margin: auto;
+}
+.tboxcol31{
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 80px 0px;
+    margin: 10px 0px;
+    background-color: #FF943B;
+}
+.tboxcol31 p{
+    color: #732002;
+    font-size: 42px;
+    text-align: center;
+}
+
+/*------------informacion Adopciones segunda parte----------*/
+.gal{
+    width: 95%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 140px;
+    
+}
+
+.gal img{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+/*-------------Responsive----------*/
+@media(max-width: 700px){
+    h1{
+        font-size: 20px;
+    }
+
+    .segm{
+        flex-direction: column;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .segm h1{
+        font-size: 20px;
+    }
+    .tbox{
+        flex-direction: column;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .tbox2{
+        margin: 180px;
+    }
+    .tbox3{
+        margin: 180px;
+    }
+    .imgbox{
+        flex-direction: column;
+        justify-content: center; 
+    }
+    .imgbox p{
+        flex-direction: column;
+        justify-content: center; 
+        font-size: 20px;
+    }
+    .fot{
+        display: flex;
+        flex-direction: column;
+    }
+    .fot h2{
+        font-size: 20px;
+    }
+    .fot1{
+        background: #000000;
+        padding: 40px 0px;
+    }
+    .fott{
+        background: #000000;
+        padding: 40px 0px;
+    }
+    .inf{
+        flex-direction: column;
+    }
+
 }
